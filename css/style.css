@@ -1,14 +1,17 @@
 @import url('htte://fonts.googleapis.com/css2?family=Noto+Sans+KR');
-body, section, h1, ul, li, span, p {
+
+* {
     margin: 0;
     padding: 0;
 }
-body {
+body, html {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 400;
     color: #333;
     line-height: 1.5;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.053em;
+    word-break: keep-all;
 }
 .wrapper {
     width: 1280px;
@@ -21,66 +24,104 @@ a {
 ul li {
     list-style: none;
 }
-h1 {
-    font-size: 45px;
-    margin: 100px 0 20px 0;
-    text-align: center;
-}
-.biz ul li {
-    float: left;
-    width: 290px;
-    margin: 0 40px 0 0;
-}
-.biz ul li:last-child {
-    margin-right: 0;
-}
-.biz ul li a {
-    display: block;
-}
-.biz ul li a span {
-    display: block;
-    margin: 6px 0 10px 0;
-    font-size: 22px;
-    font-weight: 700;
-}
-.biz ul li a p {
-    display: block;
-}
-.tech {
-    background-color: rgb(250, 246, 241);
+.jeju01 {
+    background-image: url(../images/je01.png);
+    background-position: left top;
+    background-repeat: no-repeat;
     height: 800px;
-    margin-top: 580px;
+    width: 100%;
 }
-.tech h1 {
-    padding: 80px 0 0 0;
-}
-.tech ul li {
-    float: left;
-    margin: 0 40px 0 0;
-}
-.tech ul li:last-child {
-    margin-right: 0;
-}
-.tech ul li a {
-    display: block;
-    width: 620px;
-    height: 514px;
+.jeju01 .wrapper {
+   background: url(../images/je02.png) right bottom no-repeat;
+    height: inherit;
     color: #fff;
+}
+.jeju01 h1 {
+    padding: 327px 0 15px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.jeju01 p {
+    margin: 0 0 40px 0;
+}
+.new h6 {
+    text-align: center;
+    font-size: 18px;
+}
+.new h1 {
+    text-align: center;
+    margin: 0 0 80px 0;
+    font-size: 40px;
+}
+.world {
+    margin: 60px 0 50px 0;
+}
+.world ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 60px 0;
+}
+.world ul li {
+    width: 400px;
+}
+.world ul li b {
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+.world ul li p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.world ul .ju01 {
+    margin: 40px 0 0 0;
+}
+.world ul .ju02 {
+    margin: 120px 0 0 0;    
+}
+.view {
     text-align: center;
 }
-.tech ul li.sin a {
-    background-image: url(../images/tech01.png);
-    background-position: center center;
-    background-repeat: no-repeat;
+.visited {
+    width: 100%;
+    height: 500px;
+    background: url(../images/jeju.png) no-repeat center center;
 }
-.tech ul li.tem a {
-    background-image: url(../images/tech02.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.tech ul li span {
-    display: block;
-    padding: 200px 0 15px 0;
-    font-size: 35px;
+.sea {
+    color: #fff;
+    font-size: 30px;
     font-weight: 700;
+}
+.visited h3 {
+    padding: 150px 0 10px 0;
+}
+.icon {
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+.icon h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 100px 0;
+}
+.content ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 60px 0;
+}
+.content ul li {
+    width: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+.content ul li b {
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+.more {
+    text-align: center;
 }
